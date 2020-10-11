@@ -1,0 +1,10 @@
+.idea
+.vscode
+env
+
+# Dont vendor for the interview
+fileserver/vendor/
+filestore/vendor/
+
+fileserver/fileserver
+filestore/example/example

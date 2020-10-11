@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  memcached:
+    image: memcached
+    command: ["-m", "1000", "-vv"]
+    ports:
+      - 127.0.0.1:11211:11211
